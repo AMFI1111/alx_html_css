@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sec2{
+    text-align: center;
+    margin: auto;
+    padding-top: 130px;
+    width: 70%;
+}
+.sec2 h1{
+    font-size: 32px;
+    padding-bottom: 40px;
+}
+.row-1{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col-1{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.col-1 h3{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.col-1 p{
+    font-size: 14px;
+    padding-top: 15px;
+}
+@media(max-width: 550px){
+    .row-1{
+        flex-direction: column; /*mobile mode endihon */
+    }
+}

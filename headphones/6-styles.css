@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.third{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(photos/part_3_dark.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    width: 637px;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+@media(max-width: 700px){
+    .text{
+        width: 600px;
+    }
+}
+@media(max-width: 626px){
+    .text{
+        width: 500px;
+    }
+}
+@media(max-width: 517px){
+    .text{
+        width: 450px;
+    }
+}
+@media(max-width: 375px){
+    .text{
+        width: 300px;
+    }
+}
+h1{
+    font-size: 32px;
+    padding-bottom: 45px;
+}
+.pentagon{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    padding-top: 450px;
+    
+}
+.pentagon img{
+    width: 190px;
+}

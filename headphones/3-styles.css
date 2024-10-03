@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.text-3{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 250px;
+}
+.text-3 h1{
+    padding-bottom: 25px;
+}
+button{
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 1px solid #FF6565;
+    background-color: #FF6565;
+    color: white;
+}
+button:hover{
+    opacity: 0.9;
+
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 335px;
+    padding-bottom: -200px;
+}
+
+label{
+    margin-left: -300px;
+    margin-bottom: -200px;
+}
+.mes{
+    margin-right: -45px;
+}
+.in{
+    margin-top: -37px;
+}

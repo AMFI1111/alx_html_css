@@ -1,0 +1,19 @@
+ .full{
+    padding-top: 150px;
+    background-color: #04082e;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer{
+    background-color: #04082e;
+    color: rgb(138, 134, 134);
+    height: 49px;
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    cursor: pointer;
+}
